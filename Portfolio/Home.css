@@ -1,0 +1,58 @@
+body {
+    text-align:center;
+    background-image: url(https://www.altruistahealth.com/images/default-source/icons/payer-pandemic-natural-disaster-modeling-altruista-health-2020.jpg?sfvrsn=b000b2fb_0);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+.HomeImg {
+    width:300px;
+    height:200px;
+    margin:10px;
+    position: relative;
+    visibility:hidden;
+}
+.AboutMe {
+    color:red;
+}
+.Hobbies {
+    color:blue;
+}
+.Projects {
+    color:cyan;
+}
+.Experience {
+    color:darkgreen;
+}
+.Contacts {
+    color:black;
+}
+.QuickContacts {
+    color:white;
+}
+.Gate {
+        position: absolute;
+        top:125px;
+        left:450px;
+        width: 350px;
+        height: 210px; 
+}
+.FireGate {
+    position: absolute;
+    top:125px;
+    left:200px;
+    width: 350px;
+    height: 210px; 
+}
+h1 {
+    color: gold;
+}
+h2 {
+    background-color:gold;
+    border:solid 5px gold;
+    border-radius:20px;
+    border-left-width:50px;
+    border-right-width:50px;
+    display: table;
+    margin:auto;
+}
