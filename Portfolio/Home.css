@@ -4,17 +4,13 @@ body {
     background-repeat: no-repeat;
     background-size:cover;
     background-position:center;
+    padding-right:300px;
+    padding-left:300px;
 }
 .HomeImg {
     width:300px;
     height:200px;
-    position: relative;
-    margin:10px;
-}
-.Gate {
-    position: absolute;
-    left:460px;
-    height: 210px;
+    visibility: hiden;
 }
 .AboutMe {
     color:red;
@@ -41,8 +37,6 @@ h2 {
     background-color:gold;
     border:solid 5px gold;
     border-radius:20px;
-    border-left-width:50px;
-    border-right-width:50px;
     display: table;
     margin:auto;
 }
