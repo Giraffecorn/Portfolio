@@ -10,7 +10,13 @@ body {
     height:200px;
     margin:10px;
     position: relative;
-    visibility:hidden;
+    visibility:hidde
+}
+.Gate {
+    position: absolute;
+    top:125px;
+    left:200px;
+    height: 210px; 
 }
 .AboutMe {
     color:red;
@@ -36,13 +42,6 @@ body {
         left:450px;
         width: 350px;
         height: 210px; 
-}
-.FireGate {
-    position: absolute;
-    top:125px;
-    left:200px;
-    width: 350px;
-    height: 210px; 
 }
 h1 {
     color: gold;
