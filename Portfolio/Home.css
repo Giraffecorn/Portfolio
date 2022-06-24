@@ -13,7 +13,8 @@ body {
 }
 .Gate {
     position: absolute;
-    height: 210px; 
+    left:460px;
+    height: 210px;
 }
 .AboutMe {
     color:red;
