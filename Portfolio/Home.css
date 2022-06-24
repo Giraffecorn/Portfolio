@@ -1,9 +1,6 @@
 body {
     text-align:center;
-    background-image: url(https://www.altruistahealth.com/images/default-source/icons/payer-pandemic-natural-disaster-modeling-altruista-health-2020.jpg?sfvrsn=b000b2fb_0);
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position:center;
+    background-color:black;
 }
 .HomeImg {
     width:300px;
