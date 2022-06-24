@@ -4,13 +4,11 @@ body {
     background-repeat: no-repeat;
     background-size:cover;
     background-position:center;
-    padding-right:300px;
-    padding-left:300px;
 }
 .HomeImg {
     width:300px;
     height:200px;
-    visibility: hiden;
+    position:static;
 }
 .AboutMe {
     color:red;
