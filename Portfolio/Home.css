@@ -10,7 +10,6 @@ body {
     height:200px;
     position: relative;
     margin:10px;
-    visibility:hidde
 }
 .Gate {
     position: absolute;
@@ -33,13 +32,6 @@ body {
 }
 .QuickContacts {
     color:white;
-}
-.Gate {
-        position: absolute;
-        top:125px;
-        left:450px;
-        width: 350px;
-        height: 210px; 
 }
 h1 {
     color: gold;
