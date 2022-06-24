@@ -8,14 +8,12 @@ body {
 .HomeImg {
     width:300px;
     height:200px;
-    margin:10px;
     position: relative;
+    margin:10px;
     visibility:hidde
 }
 .Gate {
     position: absolute;
-    top:125px;
-    left:200px;
     height: 210px; 
 }
 .AboutMe {
