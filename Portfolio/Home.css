@@ -11,6 +11,25 @@ img {
     width:300px;
     height:200px;
     position:static;
+    border:groove 10px;
+}
+.Fire {
+    border-color:darkred;
+}
+.Water {
+    border-color:darkblue;
+}
+.Air {
+    border-color:rgb(9, 128, 128);
+}
+.Nature {
+    border-color:green;
+}
+.Dark {
+    border-color:gray;
+}
+.Light {
+    border-color:white;
 }
 .AboutMe {
     color:red;
