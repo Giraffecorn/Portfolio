@@ -1,3 +1,3 @@
 $(".Fire").hover(function() {
-    $("body").css("background-image", "url", "images/Phoenix.gif");
+    $("body").css("background-color","white");
 });
