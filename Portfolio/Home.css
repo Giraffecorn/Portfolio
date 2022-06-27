@@ -12,6 +12,10 @@ img {
     position:static;
     border:groove 10px;
 }
+.HomeImg:hover {
+    transform:scale(1.5);
+    transition: 0.5s;
+}
 .Fire {
     border-color:darkred;
 }
@@ -30,12 +34,6 @@ img {
 .Light {
     border-color:white;
 }
-.AboutMe {
-    color:red;
-}
-.Hobbies {
-    color:blue;
-}
 .Projects {
     color:cyan;
 }
@@ -51,10 +49,46 @@ img {
 h1 {
     color: gold;
 }
-h2 {
-    background-color:gold;
-    border:solid 5px gold;
-    border-radius:20px;
-    display: table;
-    margin:auto;
+.Muliticolor {
+    background-image: linear-gradient(to left, red, indigo, blue, cyan, darkgreen, black, white);
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        color: transparent;
+    margin-top:100px;
 }
+.AboutMe {
+    background-image: linear-gradient(to left, #821209, red, #fa1807, #d1665e, #8f3832, #4a0d09, darkred);
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        color: transparent;
+}
+ul {
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    position:fixed;
+    top:0;
+  }
+  li {
+    float: left;
+    color:white;
+  }
+  li a {
+    display:block;
+    color: white;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+  }
+  img.Navigation {
+    height:50px;
+    width:80px;
+  }
+  img.Navigation:hover {
+    transform: scale(1.2);
+    transition:0.5s;
+  }
