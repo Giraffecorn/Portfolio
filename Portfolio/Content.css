@@ -1,0 +1,10 @@
+.contact {
+    color:white;
+}
+.contactBody {
+    background-color:black;
+    text-align:center;
+}
+textarea {
+    object-position:center;
+}

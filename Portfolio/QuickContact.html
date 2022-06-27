@@ -3,7 +3,34 @@
     <head>
         <link rel="stylesheet" href="Content.css">
     </head>
-    <body>
-
+    <body class="contactBody">
+        <form action="https://formspree.io/f/mdoylzvp" method="POST" target="blank">
+            <div class="contact">
+                <div class="email">
+                <label>
+                    Your email:
+                    <input type="email" name="_replyto">
+                </label>
+                </div>
+                <div class="firstname">
+                <label>
+                    Your first name:
+                    <textarea name="firstname"></textarea>
+                </label>
+                </div>
+                <div class="lastname">
+                <label>
+                    Your last name:
+                    <textarea name="lastname"></textarea>
+                </label>
+                </div>
+                <div>
+                <label class="message">
+                    Your message:
+                    <textarea name="message"></textarea>
+                </label>
+                </div>
+                <button class="submit" type="submit">Send</button>
+            </form>
     </body>
 </html>
