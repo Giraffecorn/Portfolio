@@ -49,10 +49,10 @@ img {
     color:white;
 }
 h1 {
-    color: gold;
+    font-size:220px;
 }
 .Muliticolor {
-    background-image: linear-gradient(to left, red, indigo, blue, cyan, darkgreen, black, white);
+    background-image: linear-gradient(to left, red, indigo, blue, cyan, darkgreen, green, white);
         -webkit-background-clip: text;
         -moz-background-clip: text;
         background-clip: text;
