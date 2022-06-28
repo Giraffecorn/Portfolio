@@ -7,7 +7,7 @@
         <script src="home.js"></script>
         <link rel="stylesheet" href="Content.css">
     </head>
-    <body>
+    <body class="contactBody">
         <img src="images/NavBarIcon.png" class="Menu">
         <div class="Navbar">
             <a href="Home.html"><img src="images/gate.jpg">Home</a>
@@ -18,5 +18,33 @@
             <a href="Contact.html"><img src="images/DarkWings.gif">Profiles</a>
             <a href="QuickContact.html" class="Light"><img src="images/LightAngelWings.gif">Contact Me</a>
         </div>
+        <form action="https://formspree.io/f/mdoylzvp" method="POST" target="blank">
+            <div class="contact">
+                <div class="email">
+                <label>
+                    Your email:
+                    <input type="email" name="_replyto">
+                </label>
+                </div>
+                <div class="firstname">
+                <label>
+                    Your first name:
+                    <textarea name="firstname"></textarea>
+                </label>
+                </div>
+                <div class="lastname">
+                <label>
+                    Your last name:
+                    <textarea name="lastname"></textarea>
+                </label>
+                </div>
+                <div>
+                <label class="message">
+                    Your message:
+                    <textarea name="message"></textarea>
+                </label>
+                </div>
+                <button class="submit" type="submit">Send</button>
+            </form>
     </body>
 </html>

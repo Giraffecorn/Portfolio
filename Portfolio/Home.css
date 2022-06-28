@@ -1,70 +1,15 @@
+html {
+    height:100%;
+}
 body {
     text-align:center;
-    background-color:black;
     background-image:none;
     cursor:url("cursor/Sword.cur"), auto;
+    width:100%;
+    height:100%;
+    background-color:black;
 }
-img {
-    cursor:url("cursor/Sword.cur"), auto;
-}
-.HomeImg {
-    width:300px;
-    height:200px;
-    position:static;
-    border:groove 10px;
-}
-.HomeImg:hover {
-    transform:scale(2);
-    transition:0.5s;
-}
-.Fire {
-    border-color:darkred;
-}
-.Water {
-    border-color:darkblue;
-}
-.Air {
-    border-color:rgb(9, 128, 128);
-}
-.Nature {
-    border-color:green;
-}
-.Dark {
-    border-color:gray;
-}
-.Light {
-    border-color:white;
-    margin-bottom:100px;
-}
-.Projects {
-    color:cyan;
-}
-.Experience {
-    color:darkgreen;
-}
-.Contacts {
-    color:black;
-}
-.QuickContacts {
-    color:white;
-}
-h1 {
-    font-size:220px;
-}
-.Muliticolor {
-    background-image: linear-gradient(to left, red, indigo, blue, cyan, darkgreen, green, white);
-        -webkit-background-clip: text;
-        -moz-background-clip: text;
-        background-clip: text;
-        color: transparent;
-}
-.AboutMe {
-    background-image: linear-gradient(to left, #821209, red, #fa1807, #d1665e, #8f3832, #4a0d09, darkred);
-        -webkit-background-clip: text;
-        -moz-background-clip: text;
-        background-clip: text;
-        color: transparent;
-}
+/*Navbar Css*/
 .Navbar {
     height:100%;
     width:0;
@@ -72,7 +17,7 @@ h1 {
     z-index:1;
     top:0;
     left:0;
-    background-color:#111;
+    background-color:black;
     overflow-x:hidden;
     padding-top:60px;
     transition:0.5s;
@@ -92,6 +37,9 @@ h1 {
     height:80px;
     width:100px;
   }
+  .MarginNeed {
+    margin-bottom:100px;
+  }
   .Menu {
     height:50px;
     width:50px;
@@ -99,3 +47,83 @@ h1 {
     display:flex;
     justify-content: flex-start;
   }
+  /*scroll css*/
+.scroll-container {
+    height:100%;
+    overflow-y:scroll;
+    scroll-snap-type: y mandatory;
+    scroll-snap-align: end;
+}
+section {
+    height:100%;
+    scroll-snap-align: end;
+}
+/*general text css*/
+h1 {
+    background-image: linear-gradient(to left, red, indigo, blue, cyan, darkgreen, green, white);
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        font-size:200px;
+        margin-top:20px;
+}
+h2 {
+    font-size:80px;
+}
+/*general image css*/
+img {
+    cursor:url("cursor/Sword.cur"), auto;
+    margin:10px;
+    height:50%;
+}
+.HomeImg:hover {
+    transform:scale(1.2);
+    transition:0.5s;
+}
+/*class text css*/
+.fire h2 {
+    background-image: linear-gradient(to left, red, rgb(238, 16, 97), rgb(109, 8, 8), rgb(230, 121, 121));
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        color: transparent;
+}
+.water h2 {
+    background-image: linear-gradient(to left, rgb(6, 125, 252), rgb(80, 34, 233), rgb(6, 129, 162), rgb(5, 23, 95));
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        color: transparent;
+}
+.air h2 {
+    background-image: linear-gradient(to left, white, cyan, rgb(68, 102, 215), rgb(3, 6, 88));
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        color: transparent;
+}
+.nature h2 {
+    background-image: linear-gradient(to left, white, rgb(121, 239, 108), rgb(19, 133, 66), rgb(5, 113, 48));
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        color: transparent;
+}
+/*class image css*/
+.fire img {
+    width:35%;
+    border:groove 10px rgb(126, 6, 6);
+}
+.water img {
+    width:35%;
+    border:groove 10px rgb(6, 6, 120);
+}
+.air img {
+    width:35%;
+    border: groove 10px rgb(7, 136, 136);
+}
+.nature img {
+    width:35%;
+    border: groove 10px rgb(6, 132, 33);
+}
