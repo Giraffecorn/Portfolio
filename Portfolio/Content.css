@@ -117,3 +117,20 @@ section {
 iframe {
   visibility: hidden;
 }
+/*Projects Css*/
+.Projects {
+  background-image:url("images/ocean.jpg");
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+  text-align: center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.ProjectsText {
+  margin-top:100px;
+}
+.ProjectsImg img{
+  height:300px;
+  width:250px;
+  margin:5px;
+}
