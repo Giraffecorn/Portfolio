@@ -6,7 +6,7 @@
   z-index:1;
   top:0;
   left:0;
-  background-color:#111;
+  background-color:black;
   overflow-x:hidden;
   padding-top:60px;
   transition:0.5s;
@@ -26,12 +26,16 @@
   height:80px;
   width:100px;
 }
+.MarginNeed {
+  margin-bottom:100px;
+}
 .Menu {
-  height:50px;
-  width:50px;
+  height:80px;
+  width:80px;
   top:0;
   display:flex;
   justify-content: flex-start;
+  z-index: 2;
 }
 /*scroll css*/
 html {
@@ -120,17 +124,41 @@ iframe {
 /*Projects Css*/
 .Projects {
   background-image:url("images/ocean.jpg");
-  background-size:cover;
   background-position:center;
   background-repeat:no-repeat;
   text-align: center;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color:hotpink;
+  cursor:url("cursor/Water.cur"), auto;
+}
+.Projects h1 {
+  font-size:50px;
+  background-color:aqua;
+  display:table;
+  margin:auto;
+}
+.Projects p {
+  font-size:30px;
+  background-color:aqua;
+  display:table;
+  margin:auto;
+  margin-bottom:20px;
 }
 .ProjectsText {
   margin-top:100px;
 }
 .ProjectsImg img{
-  height:300px;
-  width:250px;
-  margin:5px;
+  height:250px;
+  width:200px;
+  margin:20px;
+  margin-bottom:1px;
+  cursor:url("cursor/Water.cur"), auto;
+}
+.ProjectsImg1:hover {
+  transform:scale(1.2);
+  transition:0.5s;
+}
+.ProjectsImg2:hover {
+  transform:scale(1.2);
+  transition:0.5s;
 }
