@@ -162,3 +162,59 @@ iframe {
   transform:scale(1.2);
   transition:0.5s;
 }
+/*Experience Css*/
+.Experience {
+  background-image:url("images/air.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  text-align: center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  cursor:url("cursor/Air.cur"), auto;
+}
+.Experience img {
+  cursor:url("cursor/Air.cur"), auto;
+}
+.ExperienceText h1 {
+  color:#ADEFD1FF;
+  background-color:#00203FFF;
+  display:table;
+  margin:auto;
+  border:groove 10px lightskyblue;
+  border-radius:25%;
+}
+.ExperienceText p {
+  color:#ADEFD1FF;
+  background-color:#00203FFF;
+  margin-top:20px;
+  margin-left:30%;
+  margin-right:30%;
+  border:groove 10px lightskyblue;
+  border-radius:5%;
+}
+.ExperienceImg {
+  cursor:url("cursor/Air.cur"), auto;
+}
+.ExperienceImg:hover {
+  transform:scale(1.2);
+  transition:0.5s;
+}
+/*Contact Css*/
+.Contacts {
+  background-image:url("images/NatureBackground.jpg");
+  background-size:cover;
+  background-repeat:no-repeat;
+  cursor:url("cursor/Nature.cur"), auto;
+}
+.Contacts img {
+  cursor:url("cursor/Nature.cur"), auto;
+}
+.ContactsContent img {
+  height:200px;
+  width:300px;
+  margin-top:10%;
+  margin-left:20%;
+}
+.ContactsContent img:hover {
+  transform:scale(1.2);
+  transition:0.5s;
+}
