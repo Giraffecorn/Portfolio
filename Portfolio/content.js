@@ -10,8 +10,4 @@ $(document).ready(function() {
 });
 //Projects Jquery
 $(document).ready(function() {
-    $(".Hard").click(function() {
-        alert ("This game is hard, if your score is positive you win");
-        alert ("The controls are Left, Right,and Up arrow keys");
-    });
 });

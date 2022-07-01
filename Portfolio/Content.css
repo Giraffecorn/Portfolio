@@ -49,7 +49,7 @@ html {
 }
 section {
   height:100%;
-  scroll-snap-align: start;
+  scroll-snap-align: center;
 }
 /*About Me Css*/
 .AboutMe {
@@ -59,14 +59,14 @@ section {
   background-repeat: no-repeat;
   width:100%;
   height:100%;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: 'Gabriela', serif;
   cursor: url("cursor/Fire.cur"), auto;
 }
 .Myself {
   height:300px;
   width:200px;
   float:left;
-  margin-top:50px;
+  margin-top:10px;
   margin-left:300px;
   display:flex;
   justify-content: flex-start;
@@ -79,7 +79,7 @@ section {
   border-radius:5%;
   margin-left:200px;
   margin-right:200px;
-  margin-bottom:20px;
+  margin-bottom:10px;
 }
 .AboutHeading h2 {
   font-size:50px;
@@ -127,19 +127,19 @@ iframe {
   background-position:center;
   background-repeat:no-repeat;
   text-align: center;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: 'Gabriela', serif;
   color:hotpink;
   cursor:url("cursor/Water.cur"), auto;
+  height:100%;
+  width:100%;
 }
 .Projects h1 {
   font-size:50px;
-  background-color:aqua;
   display:table;
   margin:auto;
 }
 .Projects p {
   font-size:30px;
-  background-color:aqua;
   display:table;
   margin:auto;
   margin-bottom:20px;
@@ -162,13 +162,20 @@ iframe {
   transform:scale(1.2);
   transition:0.5s;
 }
+.ProjectsBigImg {
+  height:200px;
+  width:300px;
+  margin:5px;
+}
 /*Experience Css*/
 .Experience {
   background-image:url("images/air.jpg");
   background-repeat:no-repeat;
   background-size:cover;
   text-align: center;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  width:100%;
+  height:100%;
+  font-family: 'Gabriela', serif;
   cursor:url("cursor/Air.cur"), auto;
 }
 .Experience img {
@@ -181,22 +188,45 @@ iframe {
   margin:auto;
   border:groove 10px lightskyblue;
   border-radius:25%;
+  font-size:30px;
 }
-.ExperienceText p {
+.ExpereienceParagraph {
   color:#ADEFD1FF;
   background-color:#00203FFF;
-  margin-top:20px;
-  margin-left:30%;
-  margin-right:30%;
+  margin-left:20%;
+  margin-right:20%;
   border:groove 10px lightskyblue;
-  border-radius:5%;
+  border-radius:10%;
+  font-size:25px;
 }
 .ExperienceImg {
   cursor:url("cursor/Air.cur"), auto;
 }
-.ExperienceImg:hover {
+.ExperienceLink:hover {
   transform:scale(1.2);
   transition:0.5s;
+}
+.Skills h1 {
+  color:#ADEFD1FF;
+  background-color:#00203FFF;
+  display:table;
+  margin:auto;
+  border:groove 10px lightskyblue;
+  border-radius:25%;
+  font-size:30px;
+}
+.Skills p {
+  color:#ADEFD1FF;
+  background-color:#00203FFF;
+  margin-left:20%;
+  margin-right:20%;
+  border:groove 10px lightskyblue;
+  border-radius:10%;
+  font-size:25px;
+}
+.Skills img {
+  height:150px;
+  width:200px;
 }
 /*Contact Css*/
 .Contacts {
@@ -204,6 +234,7 @@ iframe {
   background-size:cover;
   background-repeat:no-repeat;
   cursor:url("cursor/Nature.cur"), auto;
+  font-family: 'Gabriela', serif;
 }
 .Contacts img {
   cursor:url("cursor/Nature.cur"), auto;
