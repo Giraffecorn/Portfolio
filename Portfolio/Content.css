@@ -8,7 +8,7 @@
   left:0;
   background-color:black;
   overflow-x:hidden;
-  padding-top:60px;
+  padding-top:10px;
   transition:0.5s;
 }
 .Navbar a {
@@ -123,29 +123,53 @@ iframe {
 }
 /*Projects Css*/
 .Projects {
-  background-image:url("images/ocean.jpg");
+  background-image:url("images/tsunami.jpg");
+  background-size:cover;
   background-position:center;
   background-repeat:no-repeat;
   text-align: center;
   font-family: 'Gabriela', serif;
-  color:hotpink;
   cursor:url("cursor/Water.cur"), auto;
   height:100%;
   width:100%;
 }
+.CodeProjects {
+  background-color:black;
+  margin-left:200px;
+  margin-right:200px;
+  margin-top:20px;
+  border: groove 10px lightskyblue;
+  border-radius:5%;
+}
+.DesignProjects {
+  background-color:black;
+  margin-left:200px;
+  margin-right:200px;
+  margin-top:20px;
+  border: groove 10px lightskyblue;
+  border-radius:5%;
+}
+.ProjectsIntro {
+  background-color:black;
+  margin-left:200px;
+  margin-right:200px;
+  border: groove 10px lightskyblue;
+  border-radius:5%;
+}
 .Projects h1 {
-  font-size:50px;
-  display:table;
-  margin:auto;
+  font-size:120px;
 }
 .Projects p {
-  font-size:30px;
-  display:table;
-  margin:auto;
+  font-size:40px;
   margin-bottom:20px;
 }
 .ProjectsText {
   margin-top:100px;
+    background-image: linear-gradient(to left, rgb(6, 125, 252), rgb(80, 34, 233), rgb(6, 129, 162), rgb(5, 23, 95));
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 .ProjectsImg img{
   height:250px;
@@ -190,7 +214,7 @@ iframe {
   border-radius:25%;
   font-size:30px;
 }
-.ExpereienceParagraph {
+.ExpereienceContent {
   color:#ADEFD1FF;
   background-color:#00203FFF;
   margin-left:20%;
@@ -198,9 +222,6 @@ iframe {
   border:groove 10px lightskyblue;
   border-radius:10%;
   font-size:25px;
-}
-.ExperienceImg {
-  cursor:url("cursor/Air.cur"), auto;
 }
 .ExperienceLink:hover {
   transform:scale(1.2);
