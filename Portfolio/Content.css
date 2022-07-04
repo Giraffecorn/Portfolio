@@ -26,8 +26,12 @@
   height:80px;
   width:100px;
 }
+.Navbar img:hover {
+  transform:scale(1.2);
+  transition:0.5s;
+}
 .MarginNeed {
-  margin-bottom:100px;
+  margin-bottom:50px;
 }
 .Menu {
   height:80px;
@@ -36,6 +40,10 @@
   display:flex;
   justify-content: flex-start;
   z-index: 2;
+}
+.Menu:hover {
+  transform:scale(1.2);
+  transition:0.5s;
 }
 /*scroll css*/
 html {
@@ -223,6 +231,9 @@ iframe {
   border-radius:10%;
   font-size:25px;
 }
+.ExperienceLink {
+  margin-bottom:20px;
+}
 .ExperienceLink:hover {
   transform:scale(1.2);
   transition:0.5s;
@@ -269,4 +280,9 @@ iframe {
 .ContactsContent img:hover {
   transform:scale(1.2);
   transition:0.5s;
+}
+/*Citation Css*/
+.Citations {
+  background-color:black;
+  cursor:url("cursor/Giraffe.cur"), auto;
 }

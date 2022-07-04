@@ -54,4 +54,8 @@ $(document).ready(function() {
         $(".nature img").css("transform", "scale(2)");
         $(".nature img").css("transition", "0.4s");
     });
+    //About Me Jquery
+    $(".key").click (function() {
+        $("iframe").css("visibility", "visible");
+    });
 });
