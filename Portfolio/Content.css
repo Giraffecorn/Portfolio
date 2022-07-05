@@ -288,11 +288,29 @@ iframe {
   background-color:black;
   cursor:url("cursor/Giraffe.cur"), auto;
   font-family: 'Gabriela', serif;
+  width:100%;
+  height:100%;
+  text-align:center;
 }
-.CitationText {
-  color:yellow;
+.CitationText h1 {
+  background-image: linear-gradient(to left, red, lightskyblue, blue, cyan, lime, green, white);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size:100px;
+}
+.CitationText p {
+  font-size:40px;
+  background-image: linear-gradient(to left, red, lightskyblue, blue, cyan, lime, green, white);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 .CitationImages img {
-  height:150px;
-  width:150px;
+  height:200px;
+  width:200px;
+  margin:5px;
+  cursor:url("cursor/Giraffe.cur"), auto;
 }
