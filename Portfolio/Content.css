@@ -291,7 +291,7 @@ iframe {
   border:hidden 5px;
   border-radius:10%;
 }
-.ContactsContent img:hover {
+.ContactsContentInteract:hover {
   transform:scale(1.2);
   transition:0.5s;
 }
