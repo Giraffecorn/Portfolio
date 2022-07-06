@@ -141,6 +141,17 @@ iframe {
   height:100%;
   width:100%;
 }
+.CatapultProjects {
+  background-color:black;
+  margin-left:200px;
+  margin-right:200px;
+  border:groove 10px lightskyblue;
+  border-radius:5%;
+}
+.CatapultProjects img {
+  height:250px;
+  width:250px;
+}
 .CodeProjects {
   background-color:black;
   margin-left:200px;
@@ -163,6 +174,7 @@ iframe {
   margin-right:200px;
   border: groove 10px lightskyblue;
   border-radius:5%;
+  margin-bottom:20px;
 }
 .Projects h1 {
   font-size:120px;

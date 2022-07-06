@@ -58,4 +58,19 @@ $(document).ready(function() {
     $(".key").click (function() {
         $("iframe").css("visibility", "visible");
     });
+    //Projects Jquery
+    $(".CatapultLink").hover (function() {
+        $(".CatapultLink").css("transform", "scale(1.2)");
+        $(".CatapultLink").css("transition", "0.5s");
+    }, function() {
+        $(".CatapultLink").css("transform", "scale(1)");
+        $(".CatapultLink").css("transition", "0s");
+    });
+    $(".CatapultLink2").hover (function() {
+        $(".CatapultLink2").css("transform", "scale(1.2)");
+        $(".CatapultLink2").css("transition", "0.5s");
+    }, function() {
+        $(".CatapultLink2").css("transform", "scale(1)");
+        $(".CatapultLink2").css("transition", "0s");
+    });
 });
