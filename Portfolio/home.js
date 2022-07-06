@@ -45,6 +45,7 @@ $(document).ready(function() {
     //Nature Images
     $(".nature img").hover(function() {
         $(".nature").css("background-image", "url('images/nature.jpg')");
+        $(".nature").css("background-size", "cover");
         $("h2").css("visibility", "hidden");
     }, function() {
         $(".nature").css("background-image", "none");

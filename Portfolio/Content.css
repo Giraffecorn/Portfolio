@@ -74,8 +74,8 @@ section {
   height:300px;
   width:200px;
   float:left;
-  margin-top:10px;
-  margin-left:300px;
+  margin-top:20px;
+  margin-left:350px;
   display:flex;
   justify-content: flex-start;
   border:hidden 10px;
